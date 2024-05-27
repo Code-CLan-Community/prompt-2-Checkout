@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Checkout Page - Prompt 2</title>
+</head>
+
+<body>
+  <div class="billing">
+    <h2 class="heading">Billing Address</h2>
+    <form>
+      <div class="name">
+        <div class="first">
+          <label for="fname" class="labels">Fist Name</label><br />
+          <input type="text" class="inputs" placeholder="Enter Your Full Name:" /><br />
+        </div>
+        <div class="last">
+          <label for="lname" class="labels">Last Name</label><br />
+          <input type="text" class="inputs" placeholder="Enter Your Full Name:" />
+        </div>
+      </div>
+      <!-- Address bar -->
+
+      <div class="address">
+        <div class="add1">
+          <label for="add1" class="labels add-lab">Address 1</label><br />
+          <input type="text" class="inputs add-inp" placeholder="Enter Your Address 1:" /><br />
+        </div>
+        <div class="add2">
+          <label for="add2" class="labels add-lab">Address 2</label><br />
+          <input type="text" class="inputs add-inp" placeholder="Enter Your Address 2:" />
+        </div>
+      </div>
+      <!-- checkbox -->
+      <div class="checkbox">
+        <input type="checkbox" /><span>Shipping Address is same as Billing Address</span>
+      </div>
+      <!-- payment option -->
+      <div class="payoption">
+        <h2 class="heading">Payment</h2>
+        <input type="radio" value="" /><span>Credit Card</span><br />
+        <input type="radio" value="" /><span>Debit card</span><br />
+        <input type="radio" value="" /><span>PayPaL</span><br />
+      </div>
+      <!-- payment details -->
+      <div class="detail name">
+        <div class="num">
+          <label for="cnum" class="labels">Card Number</label><br />
+          <input type="password" class="inputs" placeholder="XXXX-XXXX-XXXX-XXXX" /><br />
+        </div>
+        <div class="cname">
+          <label for="lname" class="labels">Name On Card</label><br />
+          <input type="text" class="inputs" placeholder="Name on Card" />
+        </div>
+      </div>
+
+      <div class="detail name">
+        <div class="exp">
+          <label for="cnum" class="labels">Expiry Date</label><br />
+          <input type="text" class="inputs" placeholder="MM-YYYY" /><br />
+        </div>
+        <div class="cname">
+          <label for="lname" class="labels">CVV</label><br />
+          <input type="password" class="inputs" placeholder="XXX"/>
+        </div>
+      </div>
+
+      <div class="submit"><button class="btn">Proceed To Checkout</button></div>
+      <!-- <img src="./WhatsApp Image 2024-05-22 at 15.17.55_9af4d712.jpg" alt=""> -->
+    </form>
+  </div>
+</body>
+
+</html>
